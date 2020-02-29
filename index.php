@@ -1,0 +1,6 @@
+<?
+
+
+/*
+Sistema Multi Linguagem PHP
+*/
