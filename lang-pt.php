@@ -7,3 +7,4 @@ Sistema Multi Linguagem PHP
 */
 
 define('TITULO','Este é o título');
+define('SUBTITULO','Este é o sub-título');
