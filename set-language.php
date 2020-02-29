@@ -10,10 +10,10 @@ Sistema Multi Linguagem PHP
 <?php
 if (!isset($_SESSION["lang"])) {
 	$_SESSION["lang"] = "PTBR";
-	include "lang-pt.php"; 
+	require_once "lang-pt.php"; 
 	}
  elseif ($_SESSION["lang"]=="ENUS") {
-	include "lang-en.php"; }
+	require_once "lang-en.php"; }
  elseif ($_SESSION["lang"]=="PTBR") {
-	include "lang-pt.php"; }
+	require_once "lang-pt.php"; }
 ?>
